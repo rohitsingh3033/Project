@@ -1,0 +1,60 @@
+.main-container {
+  display: flex;
+}
+.left-panel {
+  width: 250px;
+  box-shadow: 0 0 5px 0 #ccc;
+  min-height: 100vw;
+  border: 1px solid #ccc;
+}
+.right-panel {
+  width: calc(100% - 250px);
+  border: 1px solid #ccc;
+  display: flex;
+}
+
+.sidepanel_filter {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filterdata {
+  border: 1px solid #ccc;
+    width: 100px;
+    padding: 2px 10px;
+    box-shadow: 0 0 5px 0 #ccc;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.hr_line {
+  width: 50%;
+  text-align: center;
+  border-color: black;
+  margin-top: 5px;
+}
+
+.custom_card {
+  width: 210px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px 0 #ccc;
+  display: inline-block;
+  margin: 10px 15px;
+  height: 320px;
+  min-height: 320px;
+}
+
+
+.filter_image img {
+  width: 150px;
+}
+
+.main_card {
+  display: inline-block;
+  width: 100%;
+}
